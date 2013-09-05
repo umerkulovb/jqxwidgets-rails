@@ -99,16 +99,16 @@
 }
 .jqx-window-header-metro, .jqx-input-button-header-metro, .jqx-calendar-title-header-metro, .jqx-grid-metro .jqx-widget-header-metro, .jqx-grid-header-metro, .jqx-grid-column-header-metro {font-size: 12px; font-family: 'segoe ui', arial, sans-serif; border-color: #e5e5e5; color: #767676; background: #f4f4f4;}
 .jqx-grid-column-menubutton {
-    background-image: url('/assets/jqxwidgets/metro-icon-down.png');
+    background-image: url('metro-icon-down.png');
  }
 .jqx-widget-metro .jqx-grid-cell-selected-metro, .jqx-grid-cell-selected-metro{ background-color:#1faeff !important; border-color: #1faeff !important; font-size: 13px;  color:#fff !important}
 .jqx-grid-cell-hover-metro{ background-color:#dedede;}
  /*applied to the column's sort button when the sort order is ascending.*/
  .jqx-grid-column-sortascbutton {
-    background-image: url('/assets/jqxwidgets/metro-icon-up.png');
+    background-image: url('metro-icon-up.png');
  }
 .jqx-grid-column-sortdescbutton {
-    background-image: url('/assets/jqxwidgets/metro-icon-down.png');
+    background-image: url('metro-icon-down.png');
 }
 .jqx-checkbox-hover-metro {
     background-color: #fff;
@@ -146,46 +146,46 @@
 /*icons*/
 .jqx-window-collapse-button-metro
 {
-    background-image: url(/assets/jqxwidgets/metro-icon-up.png);
+    background-image: url(metro-icon-up.png);
 }
 .jqx-window-collapse-button-collapsed-metro {
-  background-image: url(/assets/jqxwidgets/metro-icon-down.png);
+  background-image: url(metro-icon-down.png);
 }
 .jqx-icon-arrow-up-metro, .jqx-expander-arrow-bottom-metro, .jqx-menu-item-arrow-up-metro
 {
-    background-image: url('/assets/jqxwidgets/metro-icon-up.png');
+    background-image: url('metro-icon-up.png');
 }
 .jqx-icon-arrow-down-metro, .jqx-expander-arrow-top-metro, .jqx-tree-item-arrow-expand-metro, .jqx-tree-item-arrow-expand-hover-metro, .jqx-menu-item-arrow-down-metro
 {
-    background-image: url('/assets/jqxwidgets/metro-icon-down.png');
+    background-image: url('metro-icon-down.png');
 }
 .jqx-icon-arrow-left-metro, .jqx-menu-item-arrow-left-metro
 {
-    background-image: url('/assets/jqxwidgets/metro-icon-left.png');
+    background-image: url('metro-icon-left.png');
 }
 .jqx-icon-arrow-right-metro, .jqx-menu-item-arrow-right-metro, .jqx-tree-item-arrow-collapse-metro, .jqx-tree-item-arrow-collapse-hover-metro
 {
-    background-image: url('/assets/jqxwidgets/metro-icon-right.png');
+    background-image: url('metro-icon-right.png');
 }
 .jqx-tabs-arrow-left-metro, .jqx-tree-item-arrow-collapse-rtl-metro, .jqx-tree-item-arrow-collapse-hover-rtl-metro
 {
-    background-image: url('/assets/jqxwidgets/metro-icon-left.png');
+    background-image: url('metro-icon-left.png');
 }
 .jqx-tabs-arrow-right-metro
 {
-    background-image: url('/assets/jqxwidgets/metro-icon-right.png');
+    background-image: url('metro-icon-right.png');
 }
-.jqx-menu-item-arrow-up-selected-metro, .jqx-icon-arrow-up-selected-metro{background-image:url('/assets/jqxwidgets/metro-icon-up-white.png');background-repeat:no-repeat;background-position:center;}
-.jqx-menu-item-arrow-down-selected-metro, .jqx-icon-arrow-down-selected-metro{background-image:url('/assets/jqxwidgets/metro-icon-down-white.png');background-repeat:no-repeat;background-position:center;}
-.jqx-menu-item-arrow-left-selected-metro, .jqx-icon-arrow-left-selected-metro{background-image:url('/assets/jqxwidgets/metro-icon-left-white.png');background-repeat:no-repeat;background-position:center;}
-.jqx-menu-item-arrow-right-selected-metro, .jqx-icon-arrow-right-selected-metro{background-image:url('/assets/jqxwidgets/metro-icon-right-white.png');background-repeat:no-repeat;background-position:center;}
-.jqx-tabs-close-button-metro{background-image:url(/assets/jqxwidgets/close.png);  background-repeat:no-repeat;  background-position:center;}
-.jqx-tabs-close-button-selected-metro{background-image:url(/assets/jqxwidgets/close.png);  background-repeat:no-repeat;  background-position:center;}
-.jqx-tabs-close-button-hover-metro{background-image:url(/assets/jqxwidgets/close.png);  background-repeat:no-repeat;  background-position:center;}
-.jqx-scrollbar-metro .jqx-icon-arrow-up-selected-metro{background-image:url('/assets/jqxwidgets/metro-icon-up-white.png'); background-repeat:no-repeat; background-position:center;}
-.jqx-scrollbar-metro .jqx-icon-arrow-down-selected-metro{background-image:url('/assets/jqxwidgets/metro-icon-down-white.png'); background-repeat:no-repeat; background-position:center;}
-.jqx-scrollbar-metro .jqx-icon-arrow-left-selected-metro{background-image:url('/assets/jqxwidgets/metro-icon-left-white.png'); background-repeat:no-repeat; background-position:center;}
-.jqx-scrollbar-metro .jqx-icon-arrow-right-selected-metro{background-image:url('/assets/jqxwidgets/metro-icon-right-white.png');background-repeat:no-repeat; background-position:center;}
+.jqx-menu-item-arrow-up-selected-metro, .jqx-icon-arrow-up-selected-metro{background-image:url('metro-icon-up-white.png');background-repeat:no-repeat;background-position:center;}
+.jqx-menu-item-arrow-down-selected-metro, .jqx-icon-arrow-down-selected-metro{background-image:url('metro-icon-down-white.png');background-repeat:no-repeat;background-position:center;}
+.jqx-menu-item-arrow-left-selected-metro, .jqx-icon-arrow-left-selected-metro{background-image:url('metro-icon-left-white.png');background-repeat:no-repeat;background-position:center;}
+.jqx-menu-item-arrow-right-selected-metro, .jqx-icon-arrow-right-selected-metro{background-image:url('metro-icon-right-white.png');background-repeat:no-repeat;background-position:center;}
+.jqx-tabs-close-button-metro{background-image:url(close.png);  background-repeat:no-repeat;  background-position:center;}
+.jqx-tabs-close-button-selected-metro{background-image:url(close.png);  background-repeat:no-repeat;  background-position:center;}
+.jqx-tabs-close-button-hover-metro{background-image:url(close.png);  background-repeat:no-repeat;  background-position:center;}
+.jqx-scrollbar-metro .jqx-icon-arrow-up-selected-metro{background-image:url('metro-icon-up-white.png'); background-repeat:no-repeat; background-position:center;}
+.jqx-scrollbar-metro .jqx-icon-arrow-down-selected-metro{background-image:url('metro-icon-down-white.png'); background-repeat:no-repeat; background-position:center;}
+.jqx-scrollbar-metro .jqx-icon-arrow-left-selected-metro{background-image:url('metro-icon-left-white.png'); background-repeat:no-repeat; background-position:center;}
+.jqx-scrollbar-metro .jqx-icon-arrow-right-selected-metro{background-image:url('metro-icon-right-white.png');background-repeat:no-repeat; background-position:center;}
 .jqx-slider-slider-metro
 {
     border-color:#cdcdcd;

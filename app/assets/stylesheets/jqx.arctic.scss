@@ -382,41 +382,41 @@
     -moz-box-shadow: 0 3px 5px rgba(0, 0, 0, 0.15);
 }
 .jqx-grid-column-sortascbutton-arctic, .jqx-expander-arrow-bottom-arctic, .jqx-window-collapse-button-arctic, .jqx-menu-item-arrow-up-arctic, .jqx-menu-item-arrow-up-selected-arctic, .jqx-menu-item-arrow-top-up-arctic, .jqx-icon-arrow-up-arctic, .jqx-icon-arrow-up-hover-arctic, .jqx-icon-arrow-up-selected-arctic {
-    background-image: url('icon-up.png');
+    background-image: image-url('icon-up.png');
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .jqx-widget-arctic .jqx-grid-group-expand-arctic, .jqx-grid-group-expand-arctic, .jqx-grid-column-menubutton-arctic, .jqx-grid-column-sortdescbutton-arctic, .jqx-expander-arrow-top-arctic, .jqx-window-collapse-button-collapsed-arctic, .jqx-menu-item-arrow-down-arctic, .jqx-menu-item-arrow-down-selected-arctic, .jqx-menu-item-arrow-down-arctic, .jqx-icon-arrow-down-arctic, .jqx-icon-arrow-down-hover-arctic, .jqx-icon-arrow-down-selected-arctic {
-    background-image: url('icon-down.png');
+    background-image: image-url('icon-down.png');
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .jqx-tabs-arrow-left-arctic, .jqx-menu-item-arrow-left-selected-arctic, .jqx-menu-item-arrow-top-left, .jqx-icon-arrow-left-arctic, .jqx-icon-arrow-down-left-arctic, .jqx-icon-arrow-left-selected-arctic {
-    background-image: url('icon-left.png');
+    background-image: image-url('icon-left.png');
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .jqx-widget-arctic .jqx-grid-group-collapse-arctic, .jqx-grid-group-collapse-arctic, .jqx-tabs-arrow-right-arctic, .jqx-menu-item-arrow-right-selected-arctic, .jqx-menu-item-arrow-top-right-arctic, .jqx-icon-arrow-right-arctic, .jqx-icon-arrow-right-hover-arctic, .jqx-icon-arrow-right-selected-arctic {
-    background-image: url('icon-right.png');
+    background-image: image-url('icon-right.png');
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .jqx-tree-item-arrow-collapse-rtl-arctic, .jqx-tree-item-arrow-collapse-hover-rtl-arctic {
-    background-image: url(icon-left.png);
+    background-image: image-url('icon-left.png');
 }
 
 .jqx-menu-item-arrow-left-selected-arctic {
-    background-image: url('icon-left-white.png');
+    background-image: image-url('icon-left-white.png');
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .jqx-menu-item-arrow-right-selected-arctic {
-    background-image: url('icon-right-white.png');
+    background-image: image-url('icon-right-white.png');
     background-repeat: no-repeat;
     background-position: center;
 }

@@ -231,7 +231,7 @@
     border-style: solid;
     border-width: 0px 0px 0px 1px;
     border-color: transparent;
-    background-image: url('menubutton.png');
+    background-image: image-url('menubutton.png');
     background-repeat: no-repeat;
     background-position: center;
     cursor: pointer;
@@ -242,7 +242,7 @@
  /*applied to the column's sort button when the sort order is ascending.*/
  .jqx-grid-column-sortascbutton {
     border: none;
-    background-image: url('sortascbutton.png');
+    background-image: image-url('sortascbutton.png');
     background-repeat: no-repeat;
     background-position: center;
     cursor: pointer;
@@ -250,7 +250,7 @@
  /*applied to the column's sort button when the sort order is descending.*/
   .jqx-grid-column-sortdescbutton {
     border: none;
-    background-image: url('sortdescbutton.png');
+    background-image: image-url('sortdescbutton.png');
     background-repeat: no-repeat;
     background-position: center;
     cursor: pointer;
@@ -259,7 +259,7 @@
   .jqx-grid-column-filterbutton
  {
     border: none;
-    background-image: url('filter.png');
+    background-image: image-url('filter.png');
     background-repeat: no-repeat;
     background-position: center;
  }
@@ -276,13 +276,13 @@
  }
   .jqx-grid-validation-arrow-up
  {
-    background-image: url('red_arrow_up.png');
+    background-image: image-url('red_arrow_up.png');
     background-repeat: no-repeat;
     background-position: center center;
  }
   .jqx-grid-validation-arrow-down
  {
-    background-image: url('red_arrow_down.png');
+    background-image: image-url('red_arrow_down.png');
     background-repeat: no-repeat;
     background-position: center center;
  }
@@ -293,7 +293,7 @@
   /*applied to the sort ascending menu item in the Grid's Context Menu*/
  .jqx-grid-sortasc-icon
  {
-    background-image: url('sortasc.png');
+    background-image: image-url('sortasc.png');
     background-repeat: no-repeat;
     background-position: left center;
     width: 16px;
@@ -305,7 +305,7 @@
   /*applied to the sort ascending menu item in the Grid's Context Menu*/
  .jqx-grid-sortdesc-icon
  {
-    background-image: url('sortdesc.png');
+    background-image: image-url('sortdesc.png');
     background-repeat: no-repeat;
     background-position: left center;
     width: 16px;
@@ -317,7 +317,7 @@
   /*applied to the grid menu's sort remove item/*/
  .jqx-grid-sortremove-icon
  {
-    background-image: url('sortremove.png');
+    background-image: image-url('sortremove.png');
     background-repeat: no-repeat;
     background-position: left center;
     width: 16px;
@@ -329,7 +329,7 @@
    /*applied to the grouping column's drag and drop item when the drop operation is allowed.*/
  .jqx-grid-drag-icon
  {
-    background-image: url('drag.png');
+    background-image: image-url('drag.png');
     background-repeat: no-repeat;
     background-position: left center;
     width: 16px;
@@ -338,7 +338,7 @@
    /*applied to the grouping column's drag and drop item when the drop operation is not allowed.*/
  .jqx-grid-dragcancel-icon
  {
-    background-image: url('dragcancel.png');
+    background-image: image-url('dragcancel.png');
     background-repeat: no-repeat;
     background-position: left center;
     width: 16px;
@@ -547,7 +547,7 @@
  .jqx-grid-load
 {
     padding-right: 0px;
-    background-image: url(loader.gif);
+    background-image: image-url('loader.gif');
     background-position: 50% 50%;
     background-repeat: no-repeat;  
     z-index: 9999;
@@ -556,7 +556,7 @@
 .jqx-grid-group-collapse
 {
     padding-right: 0px;
-    background-image: url(icon-right.png);
+    background-image: image-url('icon-right.png');
     background-position: 50% 50%;
     background-repeat: no-repeat;
     cursor: pointer;
@@ -564,7 +564,7 @@
 .jqx-grid-group-collapse-rtl
 {
     padding-right: 0px;
-    background-image: url(icon-left.png);
+    background-image: image-url('icon-left.png');
     background-position: 50% 50%;
     background-repeat: no-repeat;
     cursor: pointer;
@@ -573,7 +573,7 @@
 .jqx-grid-group-expand, .jqx-grid-group-expand-rtl
 {
     padding-right: 0px;
-    background-image: url(icon-down.png);
+    background-image: image-url('icon-down.png');
     background-position: 50% 50%;
     background-repeat: no-repeat;
     cursor: pointer;
@@ -793,7 +793,7 @@
     margin-right: -8px;
     width: 17px;
     height: 15px;
-    background-image: url(icon-right.png);
+    background-image: image-url('icon-right.png');
     background-position: 100% 50%;
     background-repeat: no-repeat;
 }
@@ -804,7 +804,7 @@
     margin-right: -8px;
     width: 17px;
     height: 15px;
-    background-image: url(icon-down.png);
+    background-image: image-url('icon-down.png');
     background-position: 100% 50%;
     background-repeat: no-repeat;
 }
@@ -815,7 +815,7 @@
     margin-right: -8px;
     width: 17px;
     height: 15px;
-    background-image: url(icon-up.png);
+    background-image: image-url('icon-up.png');
     background-position: 100% 50%;
     background-repeat: no-repeat;
 }
@@ -826,7 +826,7 @@
     padding-left: 5px;
     width: 17px;
     height: 15px;
-    background-image: url(icon-left.png);
+    background-image: image-url('icon-left.png');
     background-position: 0 50%;
     background-repeat: no-repeat;
 }
@@ -837,7 +837,7 @@
     margin-right: -8px;
     width: 17px;
     height: 15px;
-    background-image: url(icon-right.png);
+    background-image: image-url('icon-right.png');
     background-position: 100% 50%;
     background-repeat: no-repeat;
 }
@@ -848,7 +848,7 @@
     margin-right: -8px;
     width: 17px;
     height: 15px;
-    background-image: url(icon-down.png);
+    background-image: image-url('icon-down.png');
     background-position: 100% 50%;
     background-repeat: no-repeat;
 }
@@ -859,7 +859,7 @@
     margin-right: -8px;
     width: 17px;
     height: 15px;
-    background-image: url(icon-up.png);
+    background-image: image-url('icon-up.png');
     background-position: 100% 50%;
     background-repeat: no-repeat;
 }
@@ -870,7 +870,7 @@
     padding-left: 5px;
     width: 17px;
     height: 15px;
-    background-image: url(icon-left.png);
+    background-image: image-url('icon-left.png');
     background-position: 0 50%;
     background-repeat: no-repeat;
 }
@@ -881,7 +881,7 @@
     margin-right: -8px;
     width: 17px;
     height: 15px;
-    background-image: url(icon-right.png);
+    background-image: image-url('icon-right.png');
     background-position: 100% 50%;
     background-repeat: no-repeat;
 }
@@ -892,7 +892,7 @@
     padding-left: 5px;
     width: 17px;
     height: 15px;
-    background-image: url(icon-left.png);
+    background-image: image-url('icon-left.png');
     background-position: 0 50%;
     background-repeat: no-repeat;
 }
@@ -1136,13 +1136,13 @@
     padding-right: 0px;
     width: 17px;
     height: 17px;
-    background-image: url(icon-right.png);
+    background-image: image-url('icon-right.png');
     background-position: 100% 50%;
     background-repeat: no-repeat;
     cursor: pointer;
 }
 .jqx-tree-item-arrow-collapse-rtl, .jqx-tree-item-arrow-collapse-hover-rtl {
-    background-image: url(icon-left.png);
+    background-image: image-url('icon-left.png');
 }
 
 /*applied to a tree item when it has sub items and is expanded. Displays an arrow icon next to the item.*/
@@ -1151,7 +1151,7 @@
     padding-right: 0px;
     width: 17px;
     height: 17px;
-    background-image: url(icon-down.png);
+    background-image: image-url('icon-down.png');
     background-position: 100% 50%;
     background-repeat: no-repeat;
     cursor: pointer;
@@ -1192,7 +1192,7 @@
 .jqx-tabs-close-button
 {
     outline: none;
-    background-image: url(close.png);
+    background-image: image-url('close.png');
     cursor: pointer;
     margin: 0 0 0 0;
     padding: 0 0 0 0;
@@ -1203,7 +1203,7 @@
 .jqx-tabs-close-button-selected
 {
     outline: none;
-    background-image: url(close.png);
+    background-image: image-url('close.png');
     cursor: pointer;
     margin: 0 0 0 0;
     padding: 0 0 0 0;
@@ -1212,7 +1212,7 @@
 .jqx-tabs-close-button-hover
 {
     outline: none;
-    background-image: url(close.png);
+    background-image: image-url('close.png');
     cursor: pointer;
     margin: 0 0 0 0;
     padding: 0 0 0 0;
@@ -1227,7 +1227,7 @@
     cursor: pointer;
     margin: 0 0 0 0;
     padding: 0 0 0 0;
-    background-image: url('icon-left.png');
+    background-image: image-url('icon-left.png');
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -1237,7 +1237,7 @@
     outline: none;
     position: relative;
     z-index: 15;
-    background-image: url('icon-right.png');
+    background-image: image-url('icon-right.png');
     background-repeat: no-repeat;
     background-position: center;
     float: left;
@@ -1492,7 +1492,7 @@
 .jqx-checkbox-check-checked
 {
     float: left;
-    background: transparent url(check_black.png) center center no-repeat;
+    background: transparent image-url('check_black.png') center center no-repeat;
     padding: 0px;
     border: none;
     outline: none;
@@ -1502,7 +1502,7 @@
 .jqx-checkbox-check-disabled
 {
     float: left;
-    background: transparent url(check_disabled.png) center center no-repeat;
+    background: transparent image-url('check_disabled.png') center center no-repeat;
     padding: 0px;
     border: none;
     outline: none;
@@ -1512,7 +1512,7 @@
 .jqx-checkbox-check-indeterminate
 {
     float: left;
-    background: transparent url(check_indeterminate_black.png) center center no-repeat;
+    background: transparent image-url('check_indeterminate_black.png') center center no-repeat;
     padding: 0px;
     border: none;
     outline: none;
@@ -1522,7 +1522,7 @@
 .jqx-checkbox-check-indeterminate-disabled
 {
     float: left;
-    background: transparent url(check_indeterminate_disabled.png) center center no-repeat;
+    background: transparent image-url('check_indeterminate_disabled.png') center center no-repeat;
     padding: 0px;
     border: none;
     outline: none;
@@ -1546,7 +1546,7 @@
 {
     cursor: pointer;
     float: left;
-    background: transparent url(roundbg_classic_normal.png) left center scroll repeat-x;
+    background: transparent url('roundbg_classic_normal.png') left center scroll repeat-x;
     padding: 0px;
     border: 1px solid transparent;
     outline: none;
@@ -1582,7 +1582,7 @@
 .jqx-radiobutton-check-checked
 {
     float: left;
-    background: transparent url(roundbg_check_black.png) left top no-repeat;
+    background: transparent image-url('roundbg_check_black.png') left top no-repeat;
     padding: 0px;
     border: 1px solid transparent;
     outline: none;
@@ -1603,7 +1603,7 @@
 .jqx-radiobutton-check-indeterminate
 {
     float: left;
-    background: transparent url(roundbg_check_indeterminate.png) left top no-repeat;
+    background: transparent image-url('roundbg_check_indeterminate.png') left top no-repeat;
     padding: 0px;
     border: none;
     outline: none;
@@ -1645,7 +1645,7 @@
     background-color: transparent;
     background-repeat: no-repeat;
     cursor: pointer;
-    background-image: url(star.png);
+    background-image: image-url('star.png');
     overflow: hidden;
 }
 /*applied to the rating when it is hovered.*/
@@ -1655,7 +1655,7 @@
     padding: 0px;
     background-repeat: no-repeat;
     cursor: pointer;
-    background-image: url(star_hover.png);
+    background-image: image-url('star_hover.png');
     overflow: hidden;
 }
 /*applied to the rating when it is disabled.*/
@@ -1665,7 +1665,7 @@
     padding: 0px;
     background-repeat: no-repeat;
     cursor: pointer;
-    background-image: url(star_disabled.png);
+    background-image: image-url('star_disabled.png');
     overflow: hidden;
 }
 /*jqxCalendar Style*/
@@ -2440,20 +2440,20 @@ of the horizontal scrollbar.*/
 .jqx-window-close-button
 {
     cursor: pointer;
-    background-image: url(close.png);
+    background-image: image-url('close.png');
     background-repeat: no-repeat;    
 }
 /*applied to the window's collapse button*/
 .jqx-window-collapse-button
 {
-    background-image: url(icon-up.png);
+    background-image: image-url('icon-up.png');
     cursor: pointer;
 }
 /*applied to the window's collapse button when the window is collapsed*/
 .jqx-window-collapse-button-collapsed
 {
     cursor: pointer;
-    background-image: url(icon-down.png);
+    background-image: image-url('icon-down.png');
 }
 /*setting styles of the modal window’s background*/
 .jqx-window-modal
@@ -2542,7 +2542,7 @@ of the horizontal scrollbar.*/
 /*applied to the slider's thumb when the slider is in horizontal mode*/
 .jqx-slider-slider-horizontal
 {   
-    background-image: url(slider_horizontal_classic.png);
+    background-image: image-url('slider_horizontal_classic.png');
     background-repeat: no-repeat;
     margin-top: -5px;
     -moz-border-radius: 7px;
@@ -2554,7 +2554,7 @@ of the horizontal scrollbar.*/
 .jqx-slider-slider-vertical
 {
     margin-left: -5px;
-    background-image: url(slider_vertical_classic.png);
+    background-image: image-url('slider_vertical_classic.png');
     background-repeat: no-repeat;
     -moz-border-radius: 7px;
     -webkit-border-radius: 7px;
@@ -2692,7 +2692,7 @@ of the horizontal scrollbar.*/
     padding: 0px;
     margin: 0px;
     background-color: transparent;
-    background-image: url(multi-arrow.gif);
+    background-image: image-url('multi-arrow.gif');
 }
 .jqx-validator-error-label {
    color: #dd4b39;
@@ -2744,101 +2744,101 @@ of the horizontal scrollbar.*/
 .jqx-left-arrow
 {
     background: transparent;
-    background-image: url('left.png');
+    background-image: image-url('left.png');
     cursor: pointer;
 }
 .jqx-right-arrow
 {
     background: transparent;
-    background-image: url('right.png');
+    background-image: image-url('right.png');
     cursor: pointer;
 }
 
 .jqx-icon-arrow-up
 {
-    background-image: url('icon-up.png');
+    background-image: image-url('icon-up.png');
     background-repeat: no-repeat;
     background-position: center;
 }
 .jqx-icon-arrow-down
 {
-    background-image: url('icon-down.png');
+    background-image: image-url('icon-down.png');
     background-repeat: no-repeat;
     background-position: center;
 }
 .jqx-icon-arrow-left
 {
-    background-image: url('icon-left.png');
+    background-image: image-url('icon-left.png');
     background-repeat: no-repeat;
     background-position: center;
 }
 .jqx-icon-arrow-right
 {
-    background-image: url('icon-right.png');
+    background-image: image-url('icon-right.png');
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .jqx-icon-arrow-up-hover
 {
-    background-image: url('icon-up.png');
+    background-image: image-url('icon-up.png');
     background-repeat: no-repeat;
     background-position: center;
 }
 .jqx-icon-arrow-down-hover
 {
-    background-image: url('icon-down.png');
+    background-image: image-url('icon-down.png');
     background-repeat: no-repeat;
     background-position: center;
 }
 .jqx-icon-arrow-left-hover
 {
-    background-image: url('icon-left.png');
+    background-image: image-url('icon-left.png');
     background-repeat: no-repeat;
     background-position: center;
 }
 .jqx-icon-arrow-right-hover
 {
-    background-image: url('icon-right.png');
+    background-image: image-url('icon-right.png');
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .jqx-icon-arrow-up-selected
 {
-    background-image: url('icon-up.png');
+    background-image: image-url('icon-up.png');
     background-repeat: no-repeat;
     background-position: center;
 }
 .jqx-icon-arrow-down-selected
 {
-    background-image: url('icon-down.png');
+    background-image: image-url('icon-down.png');
     background-repeat: no-repeat;
     background-position: center;
 }
 .jqx-icon-arrow-left-selected
 {
-    background-image: url('icon-left.png');
+    background-image: image-url('icon-left.png');
     background-repeat: no-repeat;
     background-position: center;
 }
 .jqx-icon-arrow-right-selected
 {
-    background-image: url('icon-right.png');
+    background-image: image-url('icon-right.png');
     background-repeat: no-repeat;
     background-position: center;
 }
 .jqx-icon-close
 {
     cursor: pointer;
-    background-image: url(close.png);
+    background-image: image-url('close.png');
     background-repeat: no-repeat;
     background-position: center;
 }
 .jqx-icon-close-hover
 {
     cursor: pointer;
-    background-image: url(close.png);
+    background-image: image-url('close.png');
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -3056,7 +3056,7 @@ input[type=text].jqx-input, input[type=password].jqx-input {
 {
     border: 1px solid #A0A0A0;
     background-color: transparent;
-    background-image: url('colorpicker/map-saturation.png');
+    background-image: image-url('colorpicker/map-saturation.png');
     background-repeat: no-repeat;
     background-position: left top;
     overflow: hidden;
@@ -3065,7 +3065,7 @@ input[type=text].jqx-input, input[type=password].jqx-input {
 {
     border: 1px solid #A0A0A0;
     background-color: transparent;
-    background-image: url('colorpicker/map-hue.png');
+    background-image: image-url('colorpicker/map-hue.png');
     background-repeat: no-repeat;
     background-position: left top;
     overflow: hidden;
@@ -3073,7 +3073,7 @@ input[type=text].jqx-input, input[type=password].jqx-input {
 .jqx-color-picker-map-overlay
 { 
     background-color: transparent;
-    background-image: url('colorpicker/map-saturation-overlay.png');
+    background-image: image-url('colorpicker/map-saturation-overlay.png');
     background-repeat: no-repeat;
     background-position: left top;
 }
@@ -3081,7 +3081,7 @@ input[type=text].jqx-input, input[type=password].jqx-input {
 {
     border: 1px solid #A0A0A0;
     background-color: transparent;
-    background-image: url('colorpicker/bar-saturation.png');
+    background-image: image-url('colorpicker/bar-saturation.png');
     background-repeat: no-repeat;
     background-position: left top;
 }
@@ -3089,7 +3089,7 @@ input[type=text].jqx-input, input[type=password].jqx-input {
 {
     border: 1px solid #A0A0A0;
     background-color: transparent;
-    background-image: url('colorpicker/bar-hue.png');
+    background-image: image-url('colorpicker/bar-hue.png');
     background-repeat: no-repeat;
     background-position: left top;
 }
@@ -3099,21 +3099,21 @@ input[type=text].jqx-input, input[type=password].jqx-input {
 }
 .jqx-color-picker-pointer
 {
-    background-image: url('crosshair.png');
+    background-image: image-url('crosshair.png');
     background-repeat: no-repeat;
     height: 16px;
     width: 16px;
 }
 .jqx-color-picker-pointer-alt
 {
-    background-image: url('crosshair-white.png');
+    background-image: image-url('crosshair-white.png');
     background-repeat: no-repeat;
     height: 16px;
     width: 16px;
 }
 .jqx-color-picker-bar-pointer
 {
-    background-image: url('pointer.png');
+    background-image: image-url('pointer.png');
     background-repeat: no-repeat;
     height: 15px;
     margin-left: 6px;
@@ -3322,7 +3322,7 @@ ol li .jqx-listmenu-item-label:before
 }
 .jqx-passwordinput-password-icon, .jqx-passwordinput-password-icon-rtl
 {
-    background-image: url(icon-showpassword.png) !important;
+    background-image: image-url('icon-showpassword.png') !important;
     background-repeat: no-repeat !important;
     width: 12px;
     height: 9px;

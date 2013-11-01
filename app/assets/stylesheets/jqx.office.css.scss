@@ -97,16 +97,16 @@
  .jqx-input-button-header-office, .jqx-calendar-title-header-office, .jqx-grid-office .jqx-widget-header-office, .jqx-grid-header-office, .jqx-grid-column-header-office, .jqx-grid-office {font-family: Calibri; border-color: #ababab; color: #444444; background: #fff;}
 .jqx-window-header-office{font-family: Calibri; color: #444444; background: #fff;}
 .jqx-grid-column-menubutton {
-    background-image: url('office-icon-down.png');
+    background-image: image-url('office-icon-down.png');
  }
 .jqx-widget-office .jqx-grid-cell-selected-office, .jqx-grid-cell-selected-office{ background-color:#c6c6c6 !important; border-color: #a5a5a5 !important;  color:#000 !important}
 .jqx-grid-cell-hover-office{ background-color:#dedede;}
  /*applied to the column's sort button when the sort order is ascending.*/
  .jqx-grid-column-sortascbutton {
-    background-image: url('office-icon-up.png');
+    background-image: image-url('office-icon-up.png');
  }
 .jqx-grid-column-sortdescbutton {
-    background-image: url('office-icon-down.png');
+    background-image: image-url('office-icon-down.png');
 }
 .jqx-checkbox-hover-office {
     background-color: #fff;
@@ -144,46 +144,46 @@
 /*icons*/
 .jqx-window-collapse-button-office
 {
-    background-image: url(office-icon-up.png);
+    background-image: image-url("office-icon-up.png");
 }
 .jqx-window-collapse-button-collapsed-office {
-  background-image: url(office-icon-down.png);
+  background-image: image-url('office-icon-down.png');
 }
 .jqx-icon-arrow-up-office
 {
-    background-image: url('office-icon-up.png');
+    background-image: image-url('office-icon-up.png');
 }
 .jqx-icon-arrow-down-office
 {
-    background-image: url('office-icon-down.png');
+    background-image: image-url('office-icon-down.png');
 }
 .jqx-icon-arrow-left-office
 {
-    background-image: url('office-icon-left.png');
+    background-image: image-url('office-icon-left.png');
 }
 .jqx-icon-arrow-right-office
 {
-    background-image: url('office-icon-right.png');
+    background-image: image-url('office-icon-right.png');
 }
 .jqx-tabs-arrow-left-office
 {
-    background-image: url('office-icon-left.png');
+    background-image: image-url('office-icon-left.png');
 }
 .jqx-tabs-arrow-right-office
 {
-    background-image: url('office-icon-right.png');
+    background-image: image-url('office-icon-right.png');
 }
-.jqx-menu-item-arrow-up-selected-office, .jqx-icon-arrow-up-selected-office{background-image:url('office-icon-up.png');background-repeat:no-repeat;background-position:center;}
-.jqx-menu-item-arrow-down-selected-office, .jqx-icon-arrow-down-selected-office{background-image:url('office-icon-down.png');background-repeat:no-repeat;background-position:center;}
-.jqx-menu-item-arrow-left-selected-office, .jqx-icon-arrow-left-selected-office{background-image:url('office-icon-left.png');background-repeat:no-repeat;background-position:center;}
-.jqx-menu-item-arrow-right-selected-office, .jqx-icon-arrow-right-selected-office{background-image:url('office-icon-right.png');background-repeat:no-repeat;background-position:center;}
-.jqx-tabs-close-button-office{background-image:url(close.png);  background-repeat:no-repeat;  background-position:center;}
-.jqx-tabs-close-button-selected-office{background-image:url(close.png);  background-repeat:no-repeat;  background-position:center;}
-.jqx-tabs-close-button-hover-office{background-image:url(close.png);  background-repeat:no-repeat;  background-position:center;}
-.jqx-expander-arrow-bottom-office,.jqx-scrollbar-office .jqx-icon-arrow-up-selected-office{background-image:url('office-icon-up.png'); background-repeat:no-repeat; background-position:center;}
-.jqx-expander-arrow-top-office, .jqx-scrollbar-office .jqx-icon-arrow-down-selected-office{background-image:url('office-icon-down.png'); background-repeat:no-repeat; background-position:center;}
-.jqx-scrollbar-office .jqx-icon-arrow-left-selected-office{background-image:url('office-icon-left.png'); background-repeat:no-repeat; background-position:center;}
-.jqx-scrollbar-office .jqx-icon-arrow-right-selected-office{background-image:url('office-icon-right.png');background-repeat:no-repeat; background-position:center;}
+.jqx-menu-item-arrow-up-selected-office, .jqx-icon-arrow-up-selected-office{background-image:image-url('office-icon-up.png');background-repeat:no-repeat;background-position:center;}
+.jqx-menu-item-arrow-down-selected-office, .jqx-icon-arrow-down-selected-office{background-image:image-url('office-icon-down.png');background-repeat:no-repeat;background-position:center;}
+.jqx-menu-item-arrow-left-selected-office, .jqx-icon-arrow-left-selected-office{background-image:image-url('office-icon-left.png');background-repeat:no-repeat;background-position:center;}
+.jqx-menu-item-arrow-right-selected-office, .jqx-icon-arrow-right-selected-office{background-image:image-url('office-icon-right.png');background-repeat:no-repeat;background-position:center;}
+.jqx-tabs-close-button-office{background-image:image-url('close.png');  background-repeat:no-repeat;  background-position:center;}
+.jqx-tabs-close-button-selected-office{background-image:image-url('close.png');  background-repeat:no-repeat;  background-position:center;}
+.jqx-tabs-close-button-hover-office{background-image:image-url('close.png');  background-repeat:no-repeat;  background-position:center;}
+.jqx-expander-arrow-bottom-office,.jqx-scrollbar-office .jqx-icon-arrow-up-selected-office{background-image:image-url('office-icon-up.png'); background-repeat:no-repeat; background-position:center;}
+.jqx-expander-arrow-top-office, .jqx-scrollbar-office .jqx-icon-arrow-down-selected-office{background-image:image-url('office-icon-down.png'); background-repeat:no-repeat; background-position:center;}
+.jqx-scrollbar-office .jqx-icon-arrow-left-selected-office{background-image:image-url('office-icon-left.png'); background-repeat:no-repeat; background-position:center;}
+.jqx-scrollbar-office .jqx-icon-arrow-right-selected-office{background-image:image-url('office-icon-right.png');background-repeat:no-repeat; background-position:center;}
 .jqx-slider-slider-office
 {
 }

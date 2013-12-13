@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
   spec.description   = %q{jqxWidgets for Rails 3.1 Asset Pipiline}
   spec.summary       = %q{integrates jqWidgets for Rails 3.1 Asset Pipiline}
   spec.homepage      = ""
-  spec.license       = "http://www.jqwidgets.com/license"
+  spec.license       = "http://www.jqwidgets.com/licenseagreement/"
 
   spec.files         = `git ls-files`.split($/)
   spec.executables   = spec.files.grep(%r{^bin/}) { |f| File.basename(f) }

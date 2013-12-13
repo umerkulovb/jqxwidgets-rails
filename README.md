@@ -20,6 +20,10 @@ Or install it yourself as:
 
 TODO: Write usage instructions here
 
+## License
+
+http://www.jqwidgets.com/licenseagreement/
+
 ## Contributing
 
 1. Fork it

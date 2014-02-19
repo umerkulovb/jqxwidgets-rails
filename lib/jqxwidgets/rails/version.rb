@@ -1,5 +1,5 @@
 module Jqxwidgets
   module Rails
-    VERSION = "0.0.4"
+    VERSION = "3.2.1"
   end
 end

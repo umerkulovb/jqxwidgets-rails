@@ -33,9 +33,106 @@
 .jqx-splitter-collapse-button-horizontal-shinyblack, .jqx-splitter-collapse-button-vertical-shinyblack{background: #7f7f7f;}
 .jqx-grid-column-sortascbutton-shinyblack, .jqx-expander-arrow-bottom-shinyblack, .jqx-window-collapse-button-shinyblack, .jqx-menu-item-arrow-up-shinyblack, .jqx-menu-item-arrow-up-selected-shinyblack, .jqx-menu-item-arrow-top-up-shinyblack, .jqx-icon-arrow-up-shinyblack, .jqx-icon-arrow-up-hover-shinyblack, .jqx-icon-arrow-up-selected-shinyblack{background-image:image-url('icon-up-white.png'); background-repeat:no-repeat; background-position:center}
 .jqx-grid-column-menubutton-shinyblack, .jqx-grid-column-sortdescbutton-shinyblack, .jqx-expander-arrow-top-shinyblack, .jqx-window-collapse-button-collapsed-shinyblack, .jqx-menu-item-arrow-down-shinyblack, .jqx-menu-item-arrow-down-selected-shinyblack, .jqx-menu-item-arrow-down-shinyblack, .jqx-icon-arrow-down-shinyblack, .jqx-icon-arrow-down-hover-shinyblack, .jqx-icon-arrow-down-selected-shinyblack{background-image:image-url('icon-down-white.png'); background-repeat:no-repeat; background-position:center}
-.jqx-tabs-arrow-left-shinyblack, .jqx-menu-item-arrow-left-selected-shinyblack, .jqx-menu-item-arrow-top-left, .jqx-icon-arrow-left-shinyblack, .jqx-icon-arrow-down-left-shinyblack, .jqx-icon-arrow-left-selected-shinyblack{background-image:image-url('icon-left-white.png'); background-repeat:no-repeat; background-position:center}
-.jqx-tabs-arrow-right-shinyblack, .jqx-menu-item-arrow-right-selected-shinyblack, .jqx-menu-item-arrow-top-right-shinyblack, .jqx-icon-arrow-right-shinyblack, .jqx-icon-arrow-right-hover-shinyblack, .jqx-icon-arrow-right-selected-shinyblack{background-image:image-url('icon-right-white.png'); background-repeat:no-repeat; background-position:center}
+
+.jqx-icon-arrow-left-shinyblack{background-image:image-url('icon-left-white.png'); background-repeat:no-repeat; background-position:center}
+.jqx-icon-arrow-right-shinyblack{background-image:image-url('icon-right-white.png'); background-repeat:no-repeat; background-position:center}
+.jqx-menu-item-arrow-left-shinyblack{background-image:image-url('icon-left.png'); background-repeat:no-repeat; background-position:center}
+.jqx-menu-item-arrow-right-shinyblack{background-image:image-url('icon-right.png'); background-repeat:no-repeat; background-position:center}
+
+.jqx-tabs-arrow-left-shinyblack, .jqx-menu-item-arrow-left-selected-shinyblack, .jqx-menu-item-arrow-top-left, .jqx-icon-arrow-down-left-shinyblack, .jqx-icon-arrow-left-selected-shinyblack{background-image:image-url('icon-left-white.png'); background-repeat:no-repeat; background-position:center}
+.jqx-tabs-arrow-right-shinyblack, .jqx-menu-item-arrow-right-selected-shinyblack, .jqx-menu-item-arrow-top-right-shinyblack, .jqx-icon-arrow-right-hover-shinyblack, .jqx-icon-arrow-right-selected-shinyblack{background-image:image-url('icon-right-white.png'); background-repeat:no-repeat; background-position:center}
 .jqx-window-close-button-shinyblack, .jqx-icon-close-shinyblack, .jqx-tabs-close-button-shinyblack, .jqx-tabs-close-button-hover-shinyblack, .jqx-tabs-close-button-selected-shinyblack{background-image:image-url('close_white.png');  background-repeat:no-repeat;  background-position:center}
 /*applied to the progressbar's value element*/
 .jqx-progressbar-value-shinyblack{background: #555;}
 .jqx-progressbar-value-vertical-shinyblack{background: #555;}
+.jqx-icon-arrow-first-shinyblack
+{
+    background-image: image-url('icon-first-white.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.jqx-icon-arrow-last-shinyblack
+{
+    background-image: image-url('icon-last-white.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.jqx-grid-group-expand-shinyblack, .jqx-grid-cell-shinyblack>.jqx-grid-group-expand-shinyblack {
+    background-image: image-url('icon-down.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.jqx-grid-group-collapse-shinyblack, .jqx-grid-cell-shinyblack>.jqx-grid-group-collapse-shinyblack {
+    background-image: image-url('icon-right.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.jqx-grid-group-collapse-rtl-shinyblack, .jqx-grid-cell-shinyblack>.jqx-grid-group-collapse-rtl-shinyblack {
+    background-image: image-url('icon-left.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.jqx-grid-group-expand-rtl-shinyblack, .jqx-grid-cell-shinyblack>.jqx-grid-group-expand-rtl-shinyblack {
+    background-image: image-url('icon-down.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.jqx-grid-cell-shinyblack.jqx-grid-cell-selected-shinyblack>.jqx-grid-group-expand-shinyblack,
+.jqx-grid-cell-shinyblack.jqx-grid-cell-hover-shinyblack>.jqx-grid-group-expand-shinyblack {
+    background-image: image-url('icon-down-white.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.jqx-grid-cell-shinyblack.jqx-grid-cell-selected-shinyblack>.jqx-grid-group-collapse-shinyblack,
+.jqx-grid-cell-shinyblack.jqx-grid-cell-hover-shinyblack>.jqx-grid-group-collapse-shinyblack {
+    background-image: image-url('icon-right-white.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.jqx-grid-cell-shinyblack.jqx-grid-cell-selected-shinyblack>.jqx-grid-group-collapse-rtl-shinyblack,
+.jqx-grid-cell-shinyblack.jqx-grid-cell-hover-shinyblack>.jqx-grid-group-collapse-rtl-shinyblack {
+    background-image: image-url('icon-left-white.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.jqx-grid-cell-shinyblack.jqx-grid-cell-selected-shinyblack>.jqx-grid-group-expand-rtl-shinyblack,
+.jqx-grid-cell-shinyblack.jqx-grid-cell-hover-shinyblack>.jqx-grid-group-expand-rtl-shinyblack {
+    background-image: image-url('icon-down-white.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.jqx-icon-search-shinyblack
+{
+    background-image: image-url('search_white.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.jqx-icon-calendar-shinyblack, .jqx-icon-calendar-hover-shinyblack, .jqx-icon-calendar-pressed-shinyblack {
+    background-image: image-url('icon-calendar-white.png');
+}
+.jqx-icon-delete-shinyblack
+{
+    background-image: image-url('icon-delete-white.png');
+}
+.jqx-icon-edit-shinyblack
+{
+    background-image: image-url('icon-edit-white.png');
+}
+.jqx-icon-save-shinyblack
+{
+    background-image: image-url('icon-save-white.png');
+}
+.jqx-icon-cancel-shinyblack
+{
+    background-image: image-url('icon-cancel-white.png');
+}
+.jqx-icon-search-shinyblack
+{
+    background-image: image-url('search_white.png');
+}
+.jqx-icon-plus-shinyblack
+{
+    background-image: image-url('plus_white.png');
+}

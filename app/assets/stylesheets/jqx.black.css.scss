@@ -152,3 +152,66 @@ background: linear-gradient(top, #f87948 0%,#fb4e0b 4%,#f44501 11%,#e24000 19%,#
 .jqx-widget-black, .jqx-widget-header-black, .jqx-widget-content-black{-webkit-background-clip: padding-box; background-clip: padding-box;}
 .jqx-fill-state-focus-black .jqx-widget-content{border-color: #000;}   
 .jqx-radiobutton-check-checked-black{background: #fff;}
+.jqx-icon-arrow-first-black
+{
+    background-image: image-url('icon-first-white.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.jqx-icon-arrow-last-black
+{
+    background-image: image-url('icon-last-white.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.jqx-grid-cell-black.jqx-grid-cell-selected-black>.jqx-grid-group-expand-black,
+.jqx-grid-cell-black.jqx-grid-cell-hover-black>.jqx-grid-group-expand-black {
+    background-image: image-url('icon-down-white.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.jqx-grid-cell-black.jqx-grid-cell-selected-black>.jqx-grid-group-collapse-black,
+.jqx-grid-cell-black.jqx-grid-cell-hover-black>.jqx-grid-group-collapse-black {
+    background-image: image-url('icon-right-white.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.jqx-grid-cell-black.jqx-grid-cell-selected-black>.jqx-grid-group-collapse-rtl-black,
+.jqx-grid-cell-black.jqx-grid-cell-hover-black>.jqx-grid-group-collapse-rtl-black {
+    background-image: image-url('icon-left-white.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.jqx-grid-cell-black.jqx-grid-cell-selected-black>.jqx-grid-group-expand-rtl-black,
+.jqx-grid-cell-black.jqx-grid-cell-hover-black>.jqx-grid-group-expand-rtl-black {
+    background-image: image-url('icon-down-white.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.jqx-icon-calendar-black, .jqx-icon-calendar-hover-black, .jqx-icon-calendar-pressed-black {
+    background-image: image-url('icon-calendar-white.png');
+}
+.jqx-icon-delete-black
+{
+    background-image: image-url('icon-delete-white.png');
+}
+.jqx-icon-edit-black
+{
+    background-image: image-url('icon-edit-white.png');
+}
+.jqx-icon-save-black
+{
+    background-image: image-url('icon-save-white.png');
+}
+.jqx-icon-cancel-black
+{
+    background-image: image-url('icon-cancel-white.png');
+}
+.jqx-icon-search-black
+{
+    background-image: image-url('search_white.png');
+}
+.jqx-icon-plus-black
+{
+    background-image: image-url('plus_white.png');
+}

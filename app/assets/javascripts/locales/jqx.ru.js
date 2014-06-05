@@ -12,6 +12,7 @@ jqx_localization.sortdescendingstring = "По убыванию";
 jqx_localization.sortremovestring = "Убрать сортировку";
 jqx_localization.filterclearstring = "Очистить";
 jqx_localization.filterstring = "Фильтр";
+jqx_localization.filterselectstring = "Выбрать фильтр";
 jqx_localization.filtershowrowstring = "Показать строки:";
 jqx_localization.filterorconditionstring = "или";
 jqx_localization.filterandconditionstring = "и";

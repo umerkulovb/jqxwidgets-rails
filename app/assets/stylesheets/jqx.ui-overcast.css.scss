@@ -33,16 +33,7 @@
 .jqx-calendar-column-cell-ui-overcast{font-size: 11px; font-weight: bold;}
 .jqx-calendar-ui-overcast .jqx-icon-arrow-left-ui-overcast{background-image:image-url('overcast/ui-icons_999999_256x240.png'); background-position: -80px -192px; width:16px; height:16px; left:6px; position:relative}
 .jqx-calendar-ui-overcast .jqx-icon-arrow-right-ui-overcast{background-image:image-url('overcast/ui-icons_999999_256x240.png'); background-position: -48px -192px; width:16px; height:16px; right:6px; position:relative}
-/*Window*/
-.jqx-window-ui-overcast{padding: 2px;}
-.jqx-window-header-ui-overcast{border: 1px solid #4297d7; font-weight: bold; font-size: 11px; moz-border-radius:6px; border-radius:6px; webkit-border-radius:6px}
-.jqx-window-content-ui-overcast{border-width:0px !important}
-.jqx-window-close-button-ui-overcast{background-position:-96px -128px; background-image:image-url('overcast/ui-icons_454545_256x240.png');moz-border-radius:6px; border-radius:6px; webkit-border-radius:6px}
-.jqx-window-close-button-hover-ui-overcast{background-color:#fff; background-position:-96px -128px; background-image:image-url('overcast/ui-icons_70b2e1_256x240.png'); cursor:pointer; width:16px; height:16px}
-.jqx-window-collapse-button-ui-overcast{background-position:0 -16px; background-image:image-url('overcast/ui-icons_454545_256x240.png')}
-.jqx-window-collapse-button-hover-ui-overcast{background-image:image-url('overcast/ui-icons_70b2e1_256x240.png'); background-color:#fff; border-radius:6px; moz-border-radius:6px; webkit-border-radius:6px}
-.jqx-window-collapse-button-collapsed-ui-overcast, .jqx-window-collapse-button-collapsed-hover-ui-overcast{background-position:-64px -16px}
-.jqx-window-modal-ui-overcast{background: #aaaaaa; opacity: .30;filter:Alpha(Opacity=30);}
+
 /*Icons*/
 .jqx-icon-arrow-up-ui-overcast{background-position:0 -16px; background-image:image-url('overcast/ui-icons_454545_256x240.png')}
 .jqx-icon-arrow-down-ui-overcast{background-position:-64px -16px; background-image:image-url('overcast/ui-icons_454545_256x240.png')}
@@ -58,6 +49,16 @@
 .jqx-icon-arrow-down-selected-ui-overcast{background-position:-64px -16px; background-image:image-url('overcast/ui-icons_454545_256x240.png')}
 .jqx-icon-close-ui-overcast{background-image:image-url('overcast/ui-icons_454545_256x240.png'); background-position:-80px -128px; cursor:pointer}
 .jqx-icon-close-hover-ui-overcast{background-image:image-url('overcast/ui-icons_454545_256x240.png'); background-position:-80px -128px; cursor:pointer}
+/*Window*/
+.jqx-window-ui-overcast{padding: 2px;}
+.jqx-window-header-ui-overcast{border: 1px solid #4297d7; font-weight: bold; font-size: 11px; moz-border-radius:6px; border-radius:6px; webkit-border-radius:6px}
+.jqx-window-content-ui-overcast{border-width:0px !important}
+.jqx-window-close-button-ui-overcast{background-position:-96px -128px; background-image:image-url('overcast/ui-icons_454545_256x240.png');moz-border-radius:6px; border-radius:6px; webkit-border-radius:6px}
+.jqx-window-close-button-hover-ui-overcast{background-color:#fff; background-position:-96px -128px; background-image:image-url('overcast/ui-icons_70b2e1_256x240.png'); cursor:pointer; width:16px; height:16px}
+.jqx-window-collapse-button-ui-overcast{background-position:0 -16px; background-image:image-url('overcast/ui-icons_454545_256x240.png')}
+.jqx-window-collapse-button-hover-ui-overcast{background-image:image-url('overcast/ui-icons_70b2e1_256x240.png'); background-color:#fff; border-radius:6px; moz-border-radius:6px; webkit-border-radius:6px}
+.jqx-window-collapse-button-collapsed-ui-overcast, .jqx-window-collapse-button-collapsed-hover-ui-overcast{background-position:-64px -16px}
+.jqx-window-modal-ui-overcast{background: #aaaaaa; opacity: .30;filter:Alpha(Opacity=30);}
 /*Common Settings*/
 .jqx-widget-ui-overcast{line-height: 17px; font-family: Trebuchet MS, Helvetica, Arial, sans-serif; font-size:12px; font-style:normal; webkit-tap-highlight-color:rgba(0,0,0,0)}
 .jqx-widget-content-ui-overcast{ font-family: Trebuchet MS, Helvetica, Arial, sans-serif; border-color: #aaaaaa; background: #c9c9c9; color: #333333; font-size:12px}

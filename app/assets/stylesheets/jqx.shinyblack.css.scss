@@ -58,17 +58,17 @@
     background-position: center;
 }
 
-.jqx-grid-group-expand-shinyblack, .jqx-grid-cell-shinyblack>.jqx-grid-group-expand-shinyblack {
+.jqx-grid-group-expand-shinyblack, .jqx-grid-cell-shinyblack>.jqx-grid-group-expand-shinyblack, .jqx-tree-item-arrow-expand-shinyblack {
     background-image: image-url('icon-down.png');
     background-repeat: no-repeat;
     background-position: center;
 }
-.jqx-grid-group-collapse-shinyblack, .jqx-grid-cell-shinyblack>.jqx-grid-group-collapse-shinyblack {
+.jqx-grid-group-collapse-shinyblack, .jqx-grid-cell-shinyblack>.jqx-grid-group-collapse-shinyblack, .jqx-tree-item-arrow-collapse-shinyblack {
     background-image: image-url('icon-right.png');
     background-repeat: no-repeat;
     background-position: center;
 }
-.jqx-grid-group-collapse-rtl-shinyblack, .jqx-grid-cell-shinyblack>.jqx-grid-group-collapse-rtl-shinyblack {
+.jqx-grid-group-collapse-rtl-shinyblack, .jqx-grid-cell-shinyblack>.jqx-grid-group-collapse-rtl-shinyblack, .jqx-tree-item-arrow-collapse-rtl-shinyblack {
     background-image: image-url('icon-left.png');
     background-repeat: no-repeat;
     background-position: center;
@@ -135,4 +135,10 @@
 .jqx-icon-plus-shinyblack
 {
     background-image: image-url('plus_white.png');
+}
+.jqx-menu-minimized-button-shinyblack {
+   background-image: image-url('icon-menu-minimized-white.png');
+}
+.jqx-editor-toolbar-icon-shinyblack {
+    background: image-url('html_editor_white.png') no-repeat;
 }

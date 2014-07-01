@@ -34,16 +34,6 @@
 .jqx-calendar-column-cell-ui-le-frog{font-size: 11px; font-weight: bold;}
 .jqx-calendar-ui-le-frog .jqx-icon-arrow-left-ui-le-frog{background-image:image-url('le-frog/ui-icons_ffffff_256x240.png'); background-position: -80px -192px; width:16px; height:16px; left:5px; position:relative}
 .jqx-calendar-ui-le-frog .jqx-icon-arrow-right-ui-le-frog{background-image:image-url('le-frog/ui-icons_ffffff_256x240.png'); background-position: -48px -192px; width:16px; height:16px; right:5px; position:relative}
-/*Window*/
-.jqx-window-ui-le-frog{padding: 2px;}
-.jqx-window-header-ui-le-frog{border: 1px solid #72b42d; font-weight: bold; font-size: 11px; moz-border-radius:10px; border-radius:10px; webkit-border-radius:10px}
-.jqx-window-content-ui-le-frog{border-width:0px !important}
-.jqx-window-close-button-ui-le-frog{background-position:-96px -128px; background-image:image-url('le-frog/ui-icons_ffffff_256x240.png');moz-border-radius:10px; border-radius:10px; webkit-border-radius:10px}
-.jqx-window-collapse-button-ui-le-frog{background-position:0 -16px; background-image:image-url('le-frog/ui-icons_ffffff_256x240.png')}
-.jqx-window-collapse-button-hover-ui-le-frog{background-image:image-url('le-frog/ui-icons_72b42d_256x240.png'); border-radius:10px; moz-border-radius:10px; webkit-border-radius:10px}
-.jqx-window-collapse-button-collapsed-ui-le-frog, .jqx-window-collapse-button-collapsed-hover-ui-le-frog{background-position:-65px -16px}
-.jqx-window-modal-ui-le-frog{}
-.jqx-window-close-button-hover-ui-le-frog{background-color:#fff; background-position:-96px -128px; background-image:image-url('le-frog/ui-icons_72b42d_256x240.png'); cursor:pointer; width:16px; height:16px}
 
 /*Icons*/
 .jqx-icon-arrow-up-ui-le-frog{background-position:0 -16px; background-image:image-url('le-frog/ui-icons_ffffff_256x240.png')}
@@ -60,6 +50,17 @@
 .jqx-icon-arrow-right-selected-ui-le-frog{background-position:-32px -17px; background-image:image-url('le-frog/ui-icons_ffffff_256x240.png')}
 .jqx-icon-close-ui-le-frog{background-image:image-url('le-frog/ui-icons_ffffff_256x240.png'); background-position:-80px -128px; cursor:pointer}
 .jqx-icon-close-hover-ui-le-frog{background-image:image-url('le-frog/ui-icons_ffffff_256x240.png'); background-position:-80px -128px; cursor:pointer}
+/*Window*/
+.jqx-window-ui-le-frog{padding: 2px;}
+.jqx-window-header-ui-le-frog{border: 1px solid #72b42d; font-weight: bold; font-size: 11px; moz-border-radius:10px; border-radius:10px; webkit-border-radius:10px}
+.jqx-window-content-ui-le-frog{border-width:0px !important}
+.jqx-window-close-button-ui-le-frog{background-position:-96px -128px; background-image:image-url('le-frog/ui-icons_ffffff_256x240.png');moz-border-radius:10px; border-radius:10px; webkit-border-radius:10px}
+.jqx-window-collapse-button-ui-le-frog{background-position:0 -16px; background-image:image-url('le-frog/ui-icons_ffffff_256x240.png')}
+.jqx-window-collapse-button-hover-ui-le-frog{background-image:image-url('le-frog/ui-icons_72b42d_256x240.png'); border-radius:10px; moz-border-radius:10px; webkit-border-radius:10px}
+.jqx-window-collapse-button-collapsed-ui-le-frog, .jqx-window-collapse-button-collapsed-hover-ui-le-frog{background-position:-65px -16px}
+.jqx-window-modal-ui-le-frog{}
+.jqx-window-close-button-hover-ui-le-frog{background-color:#fff; background-position:-96px -128px; background-image:image-url('le-frog/ui-icons_72b42d_256x240.png'); cursor:pointer; width:16px; height:16px}
+
 /*Common Settings*/
 .jqx-widget-ui-le-frog{font-family: Lucida Grande, Lucida Sans, Arial, sans-serif; font-size:12px; font-style:normal;}
 .jqx-widget-content-ui-le-frog{font-family: Lucida Grande, Lucida Sans, Arial, sans-serif; border-color: #72b42d; background: #285c00 image-url('le-frog/ui-bg_inset-soft_10_285c00_1x100.png') 50% bottom repeat-x; color: #ffffff; font-size:12px}
@@ -117,6 +118,9 @@
 .jqx-widget-ui-le-frog .jqx-grid-column-header-ui-le-frog, .jqx-grid-cell-ui-le-frog, .jqx-widget-ui-le-frog .jqx-grid-cell-ui-le-frog, .jqx-widget-ui-le-frog .jqx-grid-group-cell-ui-le-frog, .jqx-grid-group-cell-ui-le-frog{border-color:#72b42d}
 .jqx-grid-group-expand-ui-le-frog{background-position: 50% 50%; background-repeat: no-repeat;background-image: image-url('icon-down-white.png');}
 .jqx-grid-group-collapse-ui-le-frog{background-position: 50% 50%; background-repeat: no-repeat;background-image: image-url('icon-right-white.png');}
+.jqx-grid-group-cell-ui-le-frog {
+    background-color: transparent;
+}
 /*Menu*/
 .jqx-menu-dropdown-ui-le-frog
 {
@@ -211,4 +215,10 @@
 .jqx-icon-plus-ui-le-frog
 {
     background-image: image-url('plus_white.png');
+}
+.jqx-menu-minimized-button-ui-le-frog {
+   background-image: image-url('icon-menu-minimized-white.png');
+}
+.jqx-editor-toolbar-icon-ui-le-frog {
+    background: image-url('html_editor_white.png') no-repeat;
 }

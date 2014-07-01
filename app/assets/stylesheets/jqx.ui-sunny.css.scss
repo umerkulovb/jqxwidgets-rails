@@ -32,15 +32,6 @@
 .jqx-calendar-column-cell-ui-sunny{font-size: 11px; font-weight: bold;}
 .jqx-calendar-ui-sunny .jqx-icon-arrow-left-ui-sunny{background-image:image-url('sunny/ui-icons_fadc7a_256x240.png'); background-position: -80px -192px; width:16px; height:16px; left:5px; position:relative}
 .jqx-calendar-ui-sunny .jqx-icon-arrow-right-ui-sunny{background-image:image-url('sunny/ui-icons_fadc7a_256x240.png'); background-position: -48px -192px; width:16px; height:16px; right:5px; position:relative}
-/*Window*/
-.jqx-window-ui-sunny{padding: 2px;}
-.jqx-window-header-ui-sunny{border: 1px solid #aaa; font-weight: bold; font-size: 11px; moz-border-radius:8px; border-radius:8px; webkit-border-radius:8px}
-.jqx-window-content-ui-sunny{border-width:0px !important}
-.jqx-window-close-button-ui-sunny{background-position:-96px -128px; background-image:image-url('sunny/ui-icons_fadc7a_256x240.png');moz-border-radius:8px; border-radius:8px; webkit-border-radius:8px}
-.jqx-window-collapse-button-ui-sunny{background-position:0 -16px; background-image:image-url('sunny/ui-icons_fadc7a_256x240.png')}
-.jqx-window-collapse-button-hover-ui-sunny{background-image:image-url('sunny/ui-icons_bd7b00_256x240.png'); background-color:#fff; border-radius:8px; moz-border-radius:8px; webkit-border-radius:8px}
-.jqx-window-collapse-button-collapsed-ui-sunny, .jqx-window-collapse-button-collapsed-hover-ui-sunny{background-position:-65px -16px}
-.jqx-window-close-button-hover-ui-sunny{background-color:#fff; background-position:-96px -128px; background-image:image-url('sunny/ui-icons_bd7b00_256x240.png'); cursor:pointer; width:16px; height:16px}
 
 /*Icons*/
 .jqx-icon-arrow-up-ui-sunny{background-position:0 -16px; background-image:image-url('sunny/ui-icons_3d3d3d_256x240.png')}
@@ -57,6 +48,16 @@
 .jqx-icon-arrow-right-selected-ui-sunny{background-position:-32px -17px; background-image:image-url('sunny/ui-icons_3d3d3d_256x240.png')}
 .jqx-icon-close-ui-sunny{background-image:image-url('sunny/ui-icons_3d3d3d_256x240.png'); background-position:-80px -128px; cursor:pointer}
 .jqx-icon-close-hover-ui-sunny{background-image:image-url('sunny/ui-icons_3d3d3d_256x240.png'); background-position:-80px -128px; cursor:pointer}
+/*Window*/
+.jqx-window-ui-sunny{padding: 2px;}
+.jqx-window-header-ui-sunny{border: 1px solid #aaa; font-weight: bold; font-size: 11px; moz-border-radius:8px; border-radius:8px; webkit-border-radius:8px}
+.jqx-window-content-ui-sunny{border-width:0px !important}
+.jqx-window-close-button-ui-sunny{background-position:-96px -128px; background-image:image-url('sunny/ui-icons_fadc7a_256x240.png');moz-border-radius:8px; border-radius:8px; webkit-border-radius:8px}
+.jqx-window-collapse-button-ui-sunny{background-position:0 -16px; background-image:image-url('sunny/ui-icons_fadc7a_256x240.png')}
+.jqx-window-collapse-button-hover-ui-sunny{background-image:image-url('sunny/ui-icons_bd7b00_256x240.png'); background-color:#fff; border-radius:8px; moz-border-radius:8px; webkit-border-radius:8px}
+.jqx-window-collapse-button-collapsed-ui-sunny, .jqx-window-collapse-button-collapsed-hover-ui-sunny{background-position:-65px -16px}
+.jqx-window-close-button-hover-ui-sunny{background-color:#fff; background-position:-96px -128px; background-image:image-url('sunny/ui-icons_bd7b00_256x240.png'); cursor:pointer; width:16px; height:16px}
+
 /*Common Settings*/
 .jqx-widget-ui-sunny{font-family: Segoe UI, Arial, sans-serif; font-size:12px; font-style:normal;}
 .jqx-widget-content-ui-sunny{font-family: Segoe UI, Arial, sans-serif; background: #feeebd image-url('sunny/ui-bg_highlight-soft_100_feeebd_1x100.png') 50% top repeat-x; color: #383838; font-size:12px}

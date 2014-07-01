@@ -34,16 +34,6 @@
 .jqx-calendar-column-cell-ui-start{font-size: 11px; font-weight: bold;}
 .jqx-calendar-ui-start .jqx-icon-arrow-left-ui-start{background-image:image-url('start/ui-icons_d8e7f3_256x240.png'); background-position: -80px -192px; width:16px; height:16px; left:5px; position:relative}
 .jqx-calendar-ui-start .jqx-icon-arrow-right-ui-start{background-image:image-url('start/ui-icons_d8e7f3_256x240.png'); background-position: -48px -192px; width:16px; height:16px; right:5px; position:relative}
-/*Window*/
-.jqx-window-ui-start{padding: 2px;}
-.jqx-window-header-ui-start{border: 1px solid #77d5f7; font-weight: bold; font-size: 11px; moz-border-radius:5px; border-radius:5px; webkit-border-radius:5px}
-.jqx-window-content-ui-start{border-width:0px !important}
-.jqx-window-close-button-ui-start{background-position:-96px -128px; background-image:image-url('start/ui-icons_d8e7f3_256x240.png');moz-border-radius:5px; border-radius:5px; webkit-border-radius:5px}
-.jqx-window-collapse-button-ui-start{background-position:0 -16px; background-image:image-url('start/ui-icons_d8e7f3_256x240.png')}
-.jqx-window-collapse-button-hover-ui-start{background-image:image-url('start/ui-icons_d8e7f3_256x240.png'); background-color:#fff; border-radius:5px; moz-border-radius:5px; webkit-border-radius:5px}
-.jqx-window-collapse-button-collapsed-ui-start, .jqx-window-collapse-button-collapsed-hover-ui-start{background-position:-65px -16px}
-.jqx-window-modal-ui-start{}
-.jqx-window-close-button-hover-ui-start{background-color:#fff; background-position:-96px -128px; background-image:image-url('start/ui-icons_056b93_256x240.png'); cursor:pointer; width:16px; height:16px}
 
 /*Icons*/
 .jqx-icon-arrow-up-ui-start{background-position:0 -16px; background-image:image-url('start/ui-icons_d8e7f3_256x240.png')}
@@ -58,6 +48,16 @@
 .jqx-icon-arrow-down-selected-ui-start{background-position:-65px -16px; background-image:image-url('start/ui-icons_fcd113_256x240.png')}
 .jqx-icon-close-ui-start{background-image:image-url('start/ui-icons_d8e7f3_256x240.png'); background-position:-80px -128px; cursor:pointer}
 .jqx-icon-close-hover-ui-start{background-image:image-url('start/ui-icons_0078ae_256x240.png'); background-position:-80px -128px; cursor:pointer}
+/*Window*/
+.jqx-window-ui-start{padding: 2px;}
+.jqx-window-header-ui-start{border: 1px solid #77d5f7; font-weight: bold; font-size: 11px; moz-border-radius:5px; border-radius:5px; webkit-border-radius:5px}
+.jqx-window-content-ui-start{border-width:0px !important}
+.jqx-window-close-button-ui-start{background-position:-96px -128px; background-image:image-url('start/ui-icons_d8e7f3_256x240.png');moz-border-radius:5px; border-radius:5px; webkit-border-radius:5px}
+.jqx-window-collapse-button-ui-start{background-position:0 -16px; background-image:image-url('start/ui-icons_d8e7f3_256x240.png')}
+.jqx-window-collapse-button-hover-ui-start{background-image:image-url('start/ui-icons_d8e7f3_256x240.png'); background-color:#fff; border-radius:5px; moz-border-radius:5px; webkit-border-radius:5px}
+.jqx-window-collapse-button-collapsed-ui-start, .jqx-window-collapse-button-collapsed-hover-ui-start{background-position:-65px -16px}
+.jqx-window-modal-ui-start{}
+.jqx-window-close-button-hover-ui-start{background-color:#fff; background-position:-96px -128px; background-image:image-url('start/ui-icons_056b93_256x240.png'); cursor:pointer; width:16px; height:16px}
 
 /*Common Settings*/
 .jqx-widget-ui-start{ border-color: #a6c9e2; font-size:12px; font-style:normal;}
@@ -193,4 +193,7 @@
 }
 .jqx-icon-calendar-ui-start, .jqx-icon-calendar-hover-ui-start, .jqx-icon-calendar-pressed-ui-start {
     background-image: image-url('icon-calendar-white.png');
+}
+.jqx-editor-toolbar-icon-ui-start {
+    background: image-url('html_editor_white.png') no-repeat;
 }

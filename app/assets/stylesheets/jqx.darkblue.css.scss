@@ -77,17 +77,17 @@
     background-image: image-url('plus_white.png');
 }
 
-.jqx-grid-group-expand-darkblue, .jqx-grid-cell-darkblue>.jqx-grid-group-expand-darkblue {
+.jqx-grid-group-expand-darkblue, .jqx-grid-cell-darkblue>.jqx-grid-group-expand-darkblue, .jqx-tree-item-arrow-expand-darkblue {
     background-image: image-url('icon-down.png');
     background-repeat: no-repeat;
     background-position: center;
 }
-.jqx-grid-group-collapse-darkblue, .jqx-grid-cell-darkblue>.jqx-grid-group-collapse-darkblue {
+.jqx-grid-group-collapse-darkblue, .jqx-grid-cell-darkblue>.jqx-grid-group-collapse-darkblue, .jqx-tree-item-arrow-collapse-darkblue {
     background-image: image-url('icon-right.png');
     background-repeat: no-repeat;
     background-position: center;
 }
-.jqx-grid-group-collapse-rtl-darkblue, .jqx-grid-cell-darkblue>.jqx-grid-group-collapse-rtl-darkblue {
+.jqx-grid-group-collapse-rtl-darkblue, .jqx-grid-cell-darkblue>.jqx-grid-group-collapse-rtl-darkblue, .jqx-tree-item-arrow-collapse-rtl-darkblue {
     background-image: image-url('icon-left.png');
     background-repeat: no-repeat;
     background-position: center;
@@ -121,4 +121,10 @@
     background-image: image-url('icon-down-white.png');
     background-repeat: no-repeat;
     background-position: center;
+}
+.jqx-menu-minimized-button-darkblue {
+   background-image: image-url('icon-menu-minimized-white.png');
+}
+.jqx-editor-toolbar-icon-darkblue {
+    background: image-url('html_editor_white.png') no-repeat;
 }

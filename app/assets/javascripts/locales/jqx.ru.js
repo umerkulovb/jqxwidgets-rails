@@ -70,8 +70,8 @@ jqx_localization =
         d11: "MM-dd-yyyy"
     },
     percentsymbol: "%",
-    currencysymbol: "$",
-    currencysymbolposition: "before",
+    currencysymbol: " руб",
+    currencysymbolposition: "after",
     decimalseparator: '.',
     thousandsseparator: ',',
     pagergotopagestring: "Страница:",

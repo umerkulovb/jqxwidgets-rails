@@ -73,7 +73,7 @@ jqx_localization =
     currencysymbol: " руб",
     currencysymbolposition: "after",
     decimalseparator: '.',
-    thousandsseparator: ',',
+    thousandsseparator: ' ',
     pagergotopagestring: "Страница:",
     pagershowrowsstring: "Показать:",
     pagerrangestring: " из ",
